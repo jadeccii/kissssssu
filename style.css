@@ -1,0 +1,123 @@
+body {
+    background-color: #570850;
+    background-image: radial-gradient( circle, rgba(  0, 0, 0, 0 ) 0%, rgba( 0, 0, 0, 0.8 ) 100% );
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+
+ .ws {
+    display: flex;
+    flex-wrap: wrap1;
+    margin-top: 250px;
+   
+    
+}
+
+/* Стили для изображений */
+.wrapper img {
+    width: 200px; /* Задайте желаемую ширину изображений */
+    height: 300px; /* Поддерживаем пропорции */
+    margin: 3px; /* Добавляем небольшие отступы между изображениями */
+    border-radius: 20px;
+    animation: flip 10s;
+    
+   
+}
+.wrapper1 img {
+    width: 400px; /* Задайте желаемую ширину изображений */
+    height: 300px; /* Поддерживаем пропорции */
+    margin: 3px; /* Добавляем небольшие отступы между изображениями */
+    margin-top: 300px;
+    border-radius: 20px;
+    animation: moveUpDown 5s ease-in-out infinite; 
+}
+
+
+.wrapper2 img {
+    width: 300px; /* Задайте желаемую ширину изображений */
+    height: 300px; /* Поддерживаем пропорции */
+    margin: 3px; /* Добавляем небольшие отступы между изображениями */
+    border-radius: 20px;
+    animation: flip 10s;
+}
+.wrapper3 img {
+    width: 300px; /* Задайте желаемую ширину изображений */
+    height: 300px; /* Поддерживаем пропорции */
+    margin: 3px; /* Добавляем небольшие отступы между изображениями */
+    margin-top: 300px;
+    border-radius: 20px;
+    animation: moveUpDown 5s ease-in-out infinite; 
+}
+.wrapper4 img {
+    width: 300px; /* Задайте желаемую ширину изображений */
+    height: 300px; /* Поддерживаем пропорции */
+    margin: 3px; /* Добавляем небольшие отступы между изображениями */
+    border-radius: 20px;
+    animation: flip 10s;
+}
+.wrapper5 img {
+    width: 300px; /* Задайте желаемую ширину изображений */
+    height: 300px; /* Поддерживаем пропорции */
+    margin: 3px; /* Добавляем небольшие отступы между изображениями */
+    margin-top: 300px;
+    border-radius: 20px;
+    animation: moveUpDown 5s ease-in-out infinite; 
+}
+.wrapper61 img {
+    width: 700px; /* Задайте желаемую ширину изображений */
+    height: 600px; /* Поддерживаем пропорции */
+   margin-left: 550px;
+    margin-top: 400px;
+    border-radius: 20px;
+    
+}
+
+.wrapper62 img {
+    width: 500px; /* Задайте желаемую ширину изображений */
+    height: 400px; /* Поддерживаем пропорции */
+    margin: 100px; /* Добавляем небольшие отступы между изображениями */
+    margin-top: 500px;
+
+    border-radius: 20px;
+    text-align: center;
+
+    
+    
+}
+
+.war{
+    text-align: center;
+    margin-top: 200px;
+    border-radius: 220px;
+}
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-300px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes flip {
+    0% {
+        transform: perspective(400px) rotateY(0);
+    }
+    100% {
+        transform: perspective(400px) rotateY(360deg);
+    }
+}
+
+
+
+.op {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    
+}
